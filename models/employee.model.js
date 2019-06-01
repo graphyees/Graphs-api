@@ -13,7 +13,6 @@ const employeeSchema = new mongoose.Schema({
     salary:{
       type: Number,
       required: [true, 'The salary is required'],
-      unique: true,
       trim: true,
       },
 
